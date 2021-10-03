@@ -1,11 +1,10 @@
 // Change this value depending on where you put your LED pins
-#define LED 13
+#define LED 11
 // Change this value to change delay time/frequency of blinking
-#define DELAY 200
+#define DELAY 1000
 void setup() {
   // put your setup code here, to run once:
   pinMode(LED, OUTPUT);
-
 }
 
 void loop() {
