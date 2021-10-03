@@ -13,8 +13,12 @@ void loop() {
   // put your main code here, to run repeatedly:
   val = analogRead(POT);
   digitalWrite(LED, HIGH);
-  delay(val);
+  int half_delay = map(val, 1023, 0, 2000,500);
+  delay(half_delay);
   digitalWrite(LED, LOW);
-  delay(val);
+  delay(half_delay);
+  Serial.print(half_delay);
+  Serial.print(" ");
   Serial.println(val);
+  
 }
