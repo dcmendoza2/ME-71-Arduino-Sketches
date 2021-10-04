@@ -1,4 +1,4 @@
-int ThermistorPin = A5;
+int ThermistorPin  = A5;
 int Vo;
 float R1 = 10000;
 float logR2, R2, T;
@@ -15,5 +15,5 @@ logR2 = log(R2);
 T = (1.0 / (c1 + c2 * logR2 + c3 * logR2 * logR2 * logR2));
 T = T - 273.15;
 Serial.println(T);
-delay(100);
+delay(1000);
 }
