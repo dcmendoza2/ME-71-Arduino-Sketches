@@ -45,8 +45,6 @@ void changeA(){
   Serial.print('\t');
   Serial.print(digitalRead(pinB));
   Serial.print('\t');
-
-
   if (digitalRead(pinA)^digitalRead(pinB)){
     counter++;
     Serial.print("CW"); 
