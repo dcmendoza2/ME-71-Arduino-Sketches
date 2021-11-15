@@ -5,7 +5,7 @@ This repository is created for use by students of ME 71 under University of the 
 This will serve as the codebase for any demonstration for the lesson in Digital Image Processing.
 
 ## Requirements
-Make sure that python and pip install on your machine
+Make sure that python and pip are installed on your machine
 
 Download python [here](https://www.python.org/downloads/).
 
